@@ -4,7 +4,7 @@
 
 
 # get predictions and untar them
-wget "https://predictioncenter.org/casp16/assessors/TARBALLS/predictions/R1260" --recursive --no-parent --level=2 --user assessor --password Casp16MexicO -nH --cut-dirs=4
+wget "https://predictioncenter.org/download_area/CASP16/predictions/R1260/" --recursive --no-parent --level=2 -nH --cut-dirs=4
 rm robots.txt
 rm -r index.html* hybrid/ oligo/ QA/ regular/ RNA/ selected/ ligands/
 cd R1260
