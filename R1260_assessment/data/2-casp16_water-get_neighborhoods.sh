@@ -43,7 +43,7 @@ for neighbourhood_dist in 6 10 12 20; do
 done
 
 neighbourhood_dist=10
-for align_method in "3_atom" "5_Atom" "backbone"; do 
+for align_method in "3_atom" "5_atom" "backbone"; do 
   for RES in {22..408}; do 
     JOB_NAME="${RES}_${neighbourhood_dist}_${align_method}" 
     

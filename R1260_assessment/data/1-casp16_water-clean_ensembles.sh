@@ -22,7 +22,7 @@ mv R1260/R1260TS417/R1260TS417_1_checked_reordered.pdb R1260/R1260TS417/R1260TS4
 mv R1260/R1260TS183/R1260TS183_1_checked_reordered.pdb R1260/R1260TS183/R1260TS183_1.pdb
 
 # convert pdbs to csvs, cleaning up the predictions to a standard format
-mkdir R1260_csvs
+mkdir R1260_serial
 python scripts/0-casp16_water-pdb_to_csv.py \
     --input_folder R1260 \
     --output_folder R1260_serial \

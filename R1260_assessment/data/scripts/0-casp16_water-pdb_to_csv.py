@@ -12,7 +12,7 @@ python scripts/0-casp16_water-pdb_to_csv_single_file.py \
     --output_folder R1260_csvs_simple \
     --min_dist 5 \
     --csv_output summary_atom_counts_simple.csv \
-    --group 156
+    --group 304
 '''
 
 parser = argparse.ArgumentParser(description="Process PDB files and generate summary and CSV outputs.")
@@ -70,6 +70,28 @@ for pdb_folder in pdb_folders:
         
         # just assume their ATOM HETATM differentiation means nothing
         df = pd.concat([ppdb.df['ATOM'][desired_columns],ppdb.df['HETATM'][desired_columns]])
+
+        # preprocess for AF3 models UNL 
+        if args.group == '304':
+            # there are many organic like moelcules, we assume every none
+            # Na, Cl, Mg are water-like
+            #print('special AF# cleansing')
+            #mask = df['residue_name'] == 'UNL'
+            #df.loc[mask, 'residue_name'] = df.loc[mask, 'element_symbol']
+
+            unl_rows = df[df['residue_name'] == 'UNL']
+            unique_symbols_in_unl = unl_rows['element_symbol'].unique().tolist()
+            #print(f"\nElement symbols found in 'UNL' rows: {unique_symbols_in_unl}")
+            special_ions = ['NA', 'MG', 'CL']
+            conditions = [
+                # Condition 1: 'UNL' row AND a special ion
+                (df['residue_name'] == 'UNL') & (df['element_symbol'].isin(special_ions)),
+                # Condition 2: 'UNL' row but NOT a special ion
+                (df['residue_name'] == 'UNL') & (~df['element_symbol'].isin(special_ions))]
+            choices = [df['element_symbol'],  'HOH']
+            # The 'default' is the original value if no conditions are met.
+            df['residue_name'] = np.select(conditions, choices, default=df['residue_name'])
+
 
         # Check for unknown residue names
         unknown_residues = df.loc[~df['residue_name'].isin(residue_dict.keys()), 'residue_name'].unique()

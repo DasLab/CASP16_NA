@@ -69,7 +69,7 @@ done
 
 neighbourhood_dist=10
 align_method="all_heavy_atom"
-for align_method in "3_atom" "5_Atom" "backbone"; do 
+for align_method in "3_atom" "5_atom" "backbone"; do 
   for GROUP in "${R1260_GROUPS[@]}"; do 
     JOB_NAME="g${GROUP}_${neighbourhood_dist}_${align_method}" 
     

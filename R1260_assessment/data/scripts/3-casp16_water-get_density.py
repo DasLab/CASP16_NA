@@ -32,6 +32,8 @@ parser.add_argument('--group', required=True, type=str, help="The group to proce
 parser.add_argument('--output_folder', required=True, type=str, help="Box.")
 parser.add_argument('--alignment_method', required=True, help="The alignment_method, all_heavy_atom, backbone, 3_atom, 5_atom.")
 parser.add_argument('--sample', required=False, type=int, default=None, help="The alignment_method, all_heavy_atom, backbone, 3_atom, 5_atom.")
+parser.add_argument('--atom_type', required=False, type=str, default=None, help="If specified, process ONLY this atom type (e.g., 'MG', 'OW') from the solvent file.")
+
 args = parser.parse_args()
 
 # Ignore specific user warnings
@@ -349,29 +351,41 @@ else:
 if not os.path.isdir(output):
     os.makedirs(output)
 
-print('processing RNA')
-if not os.path.isfile(f'{output}/{args.group}_rna_scatter.mrc'):
-    submap_average(pdb_files=f'{folder}/*_rna.pdb',
-        selection='all',
-        mrc_to_map_to=args.map,
-        output=f'{output}/{args.group}_rna',
-        dist_cutoff=20,
-        box_radius=30,
-        ref_location=f'{args.neighborhoods}/reference/')
+if not args.atom_type:
+    print('processing RNA')
+    if not os.path.isfile(f'{output}/{args.group}_rna_scatter.mrc'):
+        submap_average(pdb_files=f'{folder}/*_rna.pdb',
+            selection='all',
+            mrc_to_map_to=args.map,
+            output=f'{output}/{args.group}_rna',
+            dist_cutoff=20,
+            box_radius=30,
+            ref_location=f'{args.neighborhoods}/reference/')
 
-sol_selections = {'wat':'resname HOH or resname WAT or resname SOL',
-                  'mg':'resname MG or resname nMg or resname mMg',
-                  'na':'resname NA or resname Na+',
-                  'cl':'resname CL or resname Cl- or resname UNL',
-                  'k':'resname K'}
+    sol_selections = {'wat':'resname HOH or resname WAT or resname SOL',
+                      'mg':'resname MG or resname nMg or resname mMg',
+                      'na':'resname NA or resname Na+ or resname NA+ or resname N or resname NA1', #UPDATREF
+                      'cl':'resname CL or resname Cl- or resname UNL',
+                      'k':'resname K'}
 
-for mol,selection in sol_selections.items():
-    print('processing',mol)
-    if not os.path.isfile(f'{output}/{args.group}_{mol}_scatter.mrc'):
+    for mol,selection in sol_selections.items():
+        print('processing',mol)
+        if not os.path.isfile(f'{output}/{args.group}_{mol}_scatter.mrc'):
+            submap_average(pdb_files=f'{folder}/*_sol.pdb',
+                selection=selection,
+                mrc_to_map_to=args.map,
+                output=f'{output}/{args.group}_{mol}',
+                dist_cutoff=20,
+                box_radius=30,
+                ref_location=f'{args.neighborhoods}/reference/')
+
+else:
+    print('processing',args.atom_type)
+    if not os.path.isfile(f'{output}/{args.group}_{args.atom_type}_scatter.mrc'):
         submap_average(pdb_files=f'{folder}/*_sol.pdb',
             selection=selection,
             mrc_to_map_to=args.map,
-            output=f'{output}/{args.group}_{mol}',
+            output=f'{output}/{args.group}_{args.atom_type}',
             dist_cutoff=20,
             box_radius=30,
             ref_location=f'{args.neighborhoods}/reference/')
