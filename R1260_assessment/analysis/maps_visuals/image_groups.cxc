@@ -1,0 +1,59 @@
+# chimerax script
+# runscript testchimerax.cxc avg_maps/neighborhoods_10_all_heavy_atom/ 167 scatter 10
+# runscript FileLocations GroupNumber ScatterOrDensity SDLevel
+open sd_level.py
+
+close all
+lighting full
+graphics silhouettes false
+set bgColor white
+
+windowsize 600  height 600
+
+# rna
+open $1/$2_rna_$3.mrc
+vol #1 color #696969
+volume sd_level #1 $4
+
+# water
+open $1/$2_wat_$3.mrc
+vol #2 color #FF0D0D
+volume sd_level #2 $4
+
+# mg
+open $1/$2_mg_$3.mrc
+vol #3 color #8AFF00
+volume sd_level #3 $4
+
+# na
+open $1/$2_na_$3.mrc
+vol #4 color #AB5CF2
+volume sd_level #4 $4
+
+# cl
+open $1/$2_cl_$3.mrc
+vol #5 color #DAA520
+volume sd_level #5 $4
+
+# k
+open $1/$2_k_$3.mrc
+vol #6 color #57178F
+volume sd_level #6 $4
+save images/$2_$3.png supersample 4 height 1200
+
+
+# get z slices to better see the trend
+# volume #* planes z
+# volume style surface
+set bgColor black
+volume tile #* axis z pstep 5
+volume #!7-12 style surface
+view orient
+windowsize 2800  height 400
+view matrix camera 1,0,0,638.76,0,1,0,729.39,0,0,1,1450.4
+wait 20
+save images/$2_$3_zslices.png supersample 4 height 1200
+wait 20
+windowsize 800  height 600
+
+close session
