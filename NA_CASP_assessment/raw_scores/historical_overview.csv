@@ -1,0 +1,86 @@
+Competition Deadline,Competition,Target,Target Description,Best Prediction,Best Prediction TM align,Best Template,Best Template Description,Best Template TM align
+01-Dec-2010,RNA-Puzzles,PZ1,human thymidylate synthase element,PZ1_Bujnicki_5,0.39469,3GM7,1.58 A resolution X-ray structure of (CUG)6,0.53890
+01-Dec-2010,RNA-Puzzles,PZ3,glycine riboswitch,PZ3_Das_5,0.35605,2D3O,Structure of Ribosome Binding Domain of the Trigger Factor on the 50S ribosomal subunit from D. radiodurans,0.38699
+18-Dec-2011,RNA-Puzzles,PZ4,SAM-I riboswitch aptamer,PZ4_Chen_2,0.43474,3GX3,Crystal structure of the T. tengcongensis SAM-I riboswitch variant U34C/A94G bound with SAH,0.34522
+05-Oct-2012,RNA-Puzzles,PZ5,GIR ribozyme,PZ5_Das_2,0.49918,3BBX,The Hsp15 protein fitted into the low resolution Cryo-EM map of the 50S.nc-tRNA.Hsp15 complex,0.33780
+10-Oct-2012,RNA-Puzzles,PZ6,adenosylcobalamin riboswitch,PZ6_Das_1,0.44893,2QBZ,Structure of the M-Box Riboswitch Aptamer Domain,0.32040
+01-May-2013,RNA-Puzzles,PZ7,Varkud satellite ribozyme,PZ7_Das_4,0.30449,1VQ8,The structure of CCDA-PHE-CAP-BIO and the antibiotic sparsomycin bound to the large ribosomal subunit of haloarcula marismortui,0.36824
+31-May-2013,RNA-Puzzles,PZ8,SAM riboswitch,PZ8_Das_3,0.59589,3V7E,Crystal structure of YbxF bound to the SAM-I riboswitch aptamer,0.53533
+31-May-2013,RNA-Puzzles,PZ9,5-hydroxytryptophan aptamer,PZ9_Chen_6,0.48854,3RKF,Crystal structure of guanine riboswitch C61U/G37A double mutant bound to thio-guanine,0.52192
+31-May-2013,RNA-Puzzles,PZ10,T-box riboswitch - tRNA complex,PZ10_Bujnicki_8,0.34884,3J0L,Core of mammalian 80S pre-ribosome in complex with tRNAs fitted to a 9.8A cryo-EM map: classic PRE state 1,0.22820
+31-May-2014,RNA-Puzzles,PZ13,ZMP Riboswitch,PZ13_Das_2,0.42515,1Q81,Crystal Structure of minihelix with 3 puromycin bound to A-site of the 50S ribosomal subunit.,0.38059
+15-Jul-2014,RNA-Puzzles,PZ11,7SK,PZ11_Bujnicki_1,0.34409,3PDR,Crystal structure of manganese bound M-box RNA,0.43300
+15-Jul-2014,RNA-Puzzles,PZ12,ydaO riboswitch,PZ12_Bujnicki_10,0.38048,2OGO,The crystal structure of the large ribosomal subunit from Deinococcus radiodurans complexed with the pleuromutilin derivative retapamulin (SB-275833),0.35342
+31-Aug-2015,RNA-Puzzles,PZ14Bound,L-glutamine riboswitch. Bound form,PZ14Bound_BujnickiPreExp_2,0.27641,4V97,Crystal structure of the bacterial ribosome ram mutation G299A.,0.31613
+31-Aug-2015,RNA-Puzzles,PZ14Free,L-glutamine riboswitch. Free form,PZ14Free_DasPostExp_2,0.32188,4V92,Kluyveromyces lactis 80S ribosome in complex with CrPV-IRES,0.32454
+04-Sep-2015,RNA-Puzzles,PZ15,Hammerhead Ribozyme. Predict as 2 chains,PZ15_Adamiak_3,0.59364,2QUW,Hammerhead Ribozyme G12A mutant after cleavage,0.50848
+07-Nov-2015,RNA-Puzzles,PZ16,Sarcin Ricin Loop,PZ16a_RNAComposerAS1_3,0.50856,483D,CRYSTAL STRUCTURE OF THE SARCIN/RICIN DOMAIN FROM E. COLI 23 S RRNA,0.54091
+05-Jul-2016,RNA-Puzzles,PZ17,Pistol ribozyme,PZ17_Das_8,0.34714,4V6I,Localization of the small subunit ribosomal proteins into a 6.1 A cryo-EM map of Saccharomyces cerevisiae translating 80S ribosome,0.34775
+10-Nov-2016,RNA-Puzzles,PZ18,Zika virus,PZ18_DasORIGINAL_3,0.58249,4PQV,Crystal structure of an Xrn1-resistant RNA from the 3 untranslated region of a flavivirus (Murray Valley Encephalitis virus),0.45140
+10-Nov-2016,RNA-Puzzles,PZ19,One Twister Sister robozyme,PZ19_Chen_1,0.31653,4V4P,Crystal structure of 70S ribosome with thrS operator and tRNAs.,0.35533
+14-Jun-2017,RNA-Puzzles,PZ20,Another Twister Sister ribozyme,PZ20_Das_2,0.32067,4V5E,Insights into translational termination from the structure of RF2 bound to the ribosome,0.25313
+14-Jun-2017,RNA-Puzzles,PZ21,Guanidine III Riboswitch,PZ21_DasLORES_1,0.33191,2QWY,SAM-II riboswitch bound to S-adenosylmethionine,0.29710
+10-Dec-2018,RNA-Puzzles,PZ22,Hatchet Ribozyme,PZ22_Das_6,0.23258,2V3C,Crystal structure of the SRP54-SRP19-7S.S SRP RNA complex of M. jannaschii,0.36124
+10-Dec-2018,RNA-Puzzles,PZ25,2'-dG-II riboswitch,PZ25_Chen_3,0.7709,3LA5,X-ray crystal structure of mc6 RNA Riboswitch bound to azacytosine,0.67043
+17-Dec-2018,RNA-Puzzles,PZ23,Mango-III aptamer,PZ23_Das_7,0.35671,6CC3,Crystal structure of ykoY-mntP riboswitch chimera bound to cadmium,0.35923
+10-Jun-2019,RNA-Puzzles,PZ24,adenovirus virus-associated RNA,PZ24_DasTFN_10,0.57828,6GWT,"Cryo-EM structure of an E. coli 70S ribosome in complex with RF3-GDPCP, RF1(GAQ) and Pint-tRNA (State I)",0.45448
+11-Nov-2019,RNA-Puzzles,PZ26,T-box riboswitch - tRNA complex (Geobacillus kaustophilus glyQ),PZ26_TFN_10,0.54262,4V6W,Structure of the D. melanogaster 80S ribosome,0.55895
+11-Nov-2019,RNA-Puzzles,PZ27,T-box riboswitch - tRNA complex (Bacillus subtilis glyQS),PZ27_Das_2,0.69742,4MGN,Co-crystal structure of the G. kaustophilus glyQS T box riboswitch Stem I in complex with tRNA,0.60655
+18-Nov-2019,RNA-Puzzles,PZ28,T-box riboswitch - tRNA complex (Nocardia farcinica ileS),PZ28_TFN_3,0.46266,6BY1,E. coli pH03H9 complex,0.47435
+14-Apr-2020,RNA-Puzzles,PZ29,NAD+ riboswitch (Candidatus Koribacter versatilis Ellin345),PZ29_DasPOSTDEADLINE_2,0.39882,5ML7,CRYSTAL STRUCTURE OF L1-STALK FRAGMENT OF 23S rRNA FROM HALOARCULA MARISMORTUI,0.47659
+12-Apr-2021,RNA-Puzzles,PZ30,human telomerase RNA,PZ30_Chen_1,0.25646,6WRS,"Structure of the 50S subunit of the ribosome from Methicillin Resistant Staphylococcus aureus in complex with the antibiotic, tedizolid",0.32671
+19-May-2021,RNA-Puzzles,PZ31,PFSE in Sars-CoV-2,PZ31_Dokholyan_2,0.43675,4LVY,Structure of the THF riboswitch bound to pemetrexed,0.41312
+31-May-2021,RNA-Puzzles,PZ32,Pepper Aptamer,PZ32_Szachniuk_5,0.35719,6R87,3 Structure model _citation.journal_volume,0.40523
+02-Jun-2021,RNA-Puzzles,PZ33,xanthine riboswitch (Ideonella sp. B508-1),PZ33_Dfold2_7,0.34393,6YWE,The structure of the mitoribosome from Neurospora crassa in the P/E tRNA bound state,0.40863
+09-Feb-2022,RNA-Puzzles,PZ34,methyl transferase ribozyme,PZ34_ARESapo_3,0.41563,3DLL,The oxazolidinone antibiotics perturb the ribosomal peptidyl-transferase center and effect tRNA positioning,0.42321
+20-May-2022,RNA-Puzzles,PZ35,human CPEB3 HDV-like ribozyme,PZ35_Chen_9,0.41916,5LZA,"Structure of the 70S ribosome with SECIS-mRNA and P-site tRNA (Initial complex, IC)",0.43615
+20-May-2022,RNA-Puzzles,PZ36,Chimpanzee CPEB3 HDV-like ribozyme,PZ36_Chen_4,0.38801,4V7Z,Structure of the Thermus thermophilus 70S ribosome complexed with telithromycin.,0.33378
+27-May-2022,CASP15,R1108,CPEB3 ribozyme,R1108TS128_3,0.54428,2OJ3,"Hepatitis Delta Virus ribozyme precursor structure, with C75U mutation, bound to Tl+ and cobalt hexammine (Co(NH3)63+)",0.51642
+28-May-2022,CASP15,R1107,CPEB3 ribozyme,R1107TS232_1,0.5644,5LZA,"Structure of the 70S ribosome with SECIS-mRNA and P-site tRNA (Initial complex, IC)",0.43616
+03-Jun-2022,CASP15,R1117,PreQ1 class I type III riboswitch,R1117TS444_4,0.42874,3Q51,Structural analysis of a class I PreQ1 riboswitch aptamer in the metabolite-free state.,0.44681
+04-Jun-2022,CASP15,R1116,Cloverleaf RNA,R1116TS285_5,0.66717,6JXM,Crystal Structure of phi29 pRNA domain II,0.54203
+10-Jun-2022,CASP15,R1128,6WJ,R1128TS232_1,0.78691,5UQ8,"70S ribosome complex with dnaX mRNA stem-loop and E-site tRNA (""out"" conformation)",0.36494
+11-Jun-2022,CASP15,R1126,Traptamer,R1126TS232_4,0.61775,5XYM,Large subunit of Mycobacterium smegmatis,0.32543
+18-Jun-2022,CASP15,R1136,Apta-FRET,R1136TS232_3,0.74933,7BL2,pre-50S-ObgE particle state 1,0.38451
+24-Jun-2022,CASP15,R1138,6HBC-Young,R1138TS232_4,0.80048,1VQ9,The structure of CCA-PHE-CAP-BIO and the antibiotic sparsomycin bound to the large ribosomal subunit of haloarcula marismortui,0.32721
+02-Jul-2022,CASP15,R1149,SARS-CoV-2 SL5,R1149TS110_2,0.53631,5KCR,"Cryo-EM structure of the Escherichia coli 70S ribosome in complex with antibiotic Avilamycin C, mRNA and P-site tRNA at 3.6A resolution",0.46267
+07-Jul-2022,CASP15,R1156,BtCoV-HKU5 SL5,R1156TS128_5,0.66363,4V7H,Structure of the 80S rRNA and proteins and P/E tRNA for eukaryotic ribosome based on cryo-EM map of Thermomyces lanuginosus ribosome at 8.9A resolution,0.41601
+11-Aug-2022,CASP15,R1189,A-6B,R1189TS444_3,0.28831,7BHP,Cryo-EM structure of the human Ebp1 - 80S ribosome,0.37705
+11-Aug-2022,CASP15,R1190,A-4B,R1190TS081_3,0.30744,7BHP,Cryo-EM structure of the human Ebp1 - 80S ribosome,0.37705
+10-Nov-2022,RNA-Puzzles,PZ37,NAD+ II riboswitch,PZ37_Szachniuk_4,0.31397,6CK4,G96A mutant of the PRPP riboswitch from T. mathranii bound to ppGpp,0.29686
+21-Dec-2022,RNA-Puzzles,PZ38,NAD+ II riboswitch (another),PZ38_Chen_2,0.41744,3Q51,Structural analysis of a class I PreQ1 riboswitch aptamer in the metabolite-free state.,0.34484
+08-Feb-2023,RNA-Puzzles,PZ39,B3 cloverleaf RRE,PZ39_GeneSilico4_1,0.64367,7PTL,Mature conformer of a 6-helix bundle of RNA with clasp,0.63118
+16-May-2024,CASP16,R1203,Rev response element stem-loop II,R1203TS159_1,0.78893,8SP9,Crystal Structure of Coxsackievirus B3 (CVB3) Cloverleaf RNA with tRNA scaffold,0.63008
+17-May-2024,CASP16,R1205,xrRNA,R1205TS294_2,0.37963,6OLI,Structure of human ribosome nascent chain complex selectively stalled by a drug-like small molecule (USO1-RNC),0.40238
+22-May-2024,CASP16,R1209,FAB - HIV-I RRE stem loop II,R1209TS183_1,0.35623,1YIT,Crystal Structure Of Virginiamycin M and S Bound To The 50S Ribosomal Subunit Of Haloarcula Marismortui,0.36336
+24-May-2024,CASP16,R1211,CVB3 cloverleaf RNA in complex with 3C protease,R1211TS143_5,0.69062,8DP3,Crystal structure of coxsackievirus B3 cloverleaf RNA replication element,0.66418
+03-Jun-2024,CASP16,R1212,Fanzor2 ternary structure,R1212TS063_5,0.46643,3HHN,"Crystal structure of class I ligase ribozyme self-ligation product, in complex with U1A RBD",0.38932
+04-Jun-2024,CASP16,R1221s2,RNase P enzyme-substrate complex,R1221s2TS481_1,0.83429,2A64,Crystal Structure of Bacterial Ribonuclease P RNA,0.61289
+04-Jun-2024,CASP16,R1221s3,RNase P enzyme-substrate complex,R1221s3TS481_2,0.67816,8ISS,Cryo-EM structure of wild-type human tRNA Splicing Endonuclease Complex bound to pre-tRNA-ARG at 3.19 A resolution,0.60757
+06-Jun-2024,CASP16,R1224s2,RNase P enzyme-substrate complex,R1224s2TS417_3,0.87127,2A64,Crystal Structure of Bacterial Ribonuclease P RNA,0.64787
+06-Jun-2024,CASP16,R1224s3,RNase P enzyme-substrate complex,R1224s3TS033_2,0.75766,3WC2,Crystal structure of C. albicans tRNA(His) guanylyltransferase (Thg1) with a tRNA(Phe)(GUG),0.67102
+10-Jun-2024,CASP16,R1241,group II intron,R1241TS481_3,0.88421,8K0P,The Anoxybacillus pushchinoensis ORF-less Group IIC Intron HYER1 at symmetric apo state,0.88794
+12-Jun-2024,CASP16,R1242,"RaiA RNA motif, C. acetobutylicum",R1242TS033_1,0.51188,1NJP,The crystal structure of the 50S Large ribosomal subunit from Deinococcus radiodurans complexed with a tRNA acceptor stem mimic (ASM),0.36366
+14-Jun-2024,CASP16,R1248,GOLLD 3primedomain env46,R1248TS304_2,0.44806,7PIP,70S ribosome with EF-Tu-tRNA and P-site tRNA in pseudouridimycin-treated Mycoplasma pneumoniae cells,0.34912
+17-Jun-2024,CASP16,R1255,SL5 SARS-CoV-2: rotated junction,R1255TS183_4,0.7403,8UYS,SARS-CoV-2 5 proximal stem-loop 5,0.72986
+19-Jun-2024,CASP16,R1256,SL5 Bt-CoV-HKU5: SL5c truncated,R1256TS481_2,0.51157,8UYJ,"BtCoV-HKU5 5 proximal stem-loop 5, conformation 4",0.49284
+26-Jun-2024,CASP16,R1261,ZTP riboswitch,R1261LG338_1,0.72669,6WZR,Fusibacterium ulcerans ZTP riboswitch bound to p-1-pyridinyl AICA,0.59501
+27-Jun-2024,CASP16,R1262,ZTP riboswitch with AICA,R1262TS286_2,0.71116,4ZNP,The structure of A pfI Riboswitch Bound to ZMP,0.58992
+03-Jul-2024,CASP16,R1263,ZTP riboswitch with m-1-pyridinyl AICA,R1263LG020_3,0.92993,4XW7,Crystal structure of the ZMP riboswitch at 2.50 angstrom,0.92993
+04-Jul-2024,CASP16,R1264,ZTP riboswitch with AICA derivative,R1264LG055_1,0.7933,4XWF,Crystal structure of the ZMP riboswitch at 1.80 angstrom,0.79259
+12-Jul-2024,CASP16,R1254,GOLLD 3primedomain env38,R1254TS294_3,0.35425,5MYJ,Structure of 70S ribosome from Lactococcus lactis,0.34625
+15-Jul-2024,CASP16,R1252,ROOL UCC118,R1252TS183_2,0.28675,8Y0W,"dormant ribosome with eIF5A, eEF2 and SERBP1",0.32455
+15-Jul-2024,CASP16,R1253v2,ROOL env209,R1253v2TS159_2,0.2955,3J7R,Structure of the translating mammalian ribosome-Sec61 complex,0.33483
+19-Jul-2024,CASP16,R1271,RECC,R1271TS435_5,0.74837,6UFG,Co-crystal structure of M. tuberculosis ileS T-box in complex with tRNA-3-OH,0.69944
+23-Jul-2024,CASP16,R1286,Lactobacillus ncRNA,R1286TS481_4,0.27301,8BTK,Structure of the TRAP complex with the Sec translocon and a translating ribosome,0.32875
+26-Jul-2024,CASP16,R1250,GOLLD full env46,R1250TS317_2,0.31958,7QH4,Structure of the B. subtilis disome - collided 70S ribosome,0.32898
+26-Jul-2024,CASP16,R1251,GOLLD full env38,R1251TS033_3,0.28505,8XSZ,"Cryo-EM structure of the human 80S ribosome with Tigecycline, E-tRNA and P-tRNA",0.29042
+01-Aug-2024,CASP16,R1289,Precursor tRNA,R1289TS294_1,0.83547,1U6B,CRYSTAL STRUCTURE OF A SELF-SPLICING GROUP I INTRON WITH BOTH EXONS,0.63081
+02-Aug-2024,CASP16,R1288,SAMURI,R1288TS369_1,0.41408,6VWL,70S ribosome bound to HIV frameshifting stem-loop (FSS) and P/E tRNA (rotated conformation),0.38376
+05-Aug-2024,CASP16,R1291,O.I.intron-fulllength,R1291TS481_2,0.96884,8K0R,The Anoxybacillus pushchinoensis ORF-less Group IIC Intron HYER1 at symmetric post cleavge state,0.97360
+06-Aug-2024,CASP16,R1293,Translation enhancer motif,R1293TS063_3,0.54931,8T2O,Crystal structure of SCV PTE G18U RNA in complex with Fab BL3-6,0.58925
+07-Aug-2024,CASP16,R1281,2F RNA 6-helix bundle dimer,R1281TS189_1,0.64538,7PTK,Young conformer of a 6-helix bundle of RNA with clasp,0.64405
+12-Aug-2024,CASP16,R1283v1,Enterococcus ncRNA,R1283v1TS304_5,0.41236,7RQB,"Crystal structure of the Thermus thermophilus 70S ribosome in complex with protein Y, A-site aminoacyl-tRNA analog ACC-PMN, and P-site MAI-tripeptidyl-tRNA analog ACCA-IAM at 2.45A resolution",0.33413
+12-Aug-2024,CASP16,R1296,G34U mutant of M1209 complex,R1296TS481_3,0.58751,8P2F,Staphylococcus aureus 70S ribosome with elongation factor G locked with fusidic acid cyclopentane in post-translocational state,0.42965
+13-Aug-2024,CASP16,R1285,OLE,R1285TS235_4,0.70522,7ZW0,FAP-80S Complex - Rotated state,0.36471
+14-Aug-2024,CASP16,R1290,HYER1-withoutTRS,R1290TS238_4,0.99899,8K0S,The Anoxybacillus pushchinoensis ORF-less Group IIC Intron HYER1 with 10-nt TRS at symmetric apo state,0.99893

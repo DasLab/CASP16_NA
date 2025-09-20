@@ -1,4 +1,10 @@
 .ipynb_checkpoints
+*pyc
 
+# files for manuscript only
+R1260_assessment/figures
+NA_CASP_assessment/NA_assessment_figures
 # files too large
 R1260_assessment/analysis/rmsd_results/*csv
+
+
