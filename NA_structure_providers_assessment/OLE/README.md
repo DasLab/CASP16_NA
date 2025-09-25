@@ -19,9 +19,10 @@ R1285TS208_2o
 R1285TS450_1o
 ```
 
-(process_data.py)[process_data.py] compares the native interactions in (native)[native] to predicted motifs in (R1285o)[R1285o] to produce the summary (interaction_results.csv)[interaction_results.csv].
+[process_data.py](process_data.py) compares the native interactions in [native](native) to predicted motifs in [R1285o](R1285o.zip) to produce the summary [interaction_results.csv](interaction_results.csv).
 
-(all_intermolecular_interaction.py)[all_intermolecular_interaction.py] reads all predicted motifs in (R1285o)[R1285o] and outputs a summary, (all_intermolecular_interactions.csv)[all_intermolecular_interactions.csv].
+[all_intermolecular_interaction.py](all_intermolecular_interaction.py) reads all predicted motifs in [R1285o](R1285o.zip) and outputs a summary, [all_intermolecular_interactions.csv](all_intermolecular_interactions.csv).
 
+## General analysis, figures, visuals
 
-Visuals are found in (images)[images] and the pymol session, (R1285.pse)[R1285_pymol.zip].
+Visuals are found in [images](images) and the pymol session, [R1285.pse](R1285_pymol.zip).
