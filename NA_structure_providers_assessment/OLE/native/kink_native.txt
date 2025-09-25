@@ -1,0 +1,51 @@
+OLE.pdb.base_pairs.txt:A:74 A:123 W W C 
+
+OLE.pdb.base_pairs.txt:A:73 A:176 H S T 
+OLE.pdb.base_pairs.txt:A:72 A:177 H S T 
+OLE.pdb.base_pairs.txt:A:71 A:178 S H T 
+
+OLE.pdb.base_pairs.txt:A:67 A:179 W W C 
+
+OLE.pdb.base_pairs.txt:A:179 A:226 H W T 
+
+OLE.pdb.stacks.txt:A:122 A:123 A P 
+OLE.pdb.stacks.txt:A:123 A:176 A P 
+OLE.pdb.stacks.txt:A:176 A:177 A P 
+OLE.pdb.motifs.txt:TANDEM_GA_SHEARED A:71-72 A:177-178
+OLE.pdb.stacks.txt:A:71 A:177 A A 
+OLE.pdb.other_contacts.txt:A:68 A:178  O2'  N1 
+OLE.pdb.stacks.txt:A:69 A:178 B P 
+OLE.pdb.stacks.txt:A:72 A:178 B A 
+OLE.pdb.other_contacts.txt:A:72 A:179  N3   O2'
+OLE.pdb.stacks.txt:A:179 A:180 A P 
+OLE.pdb.stacks.txt:A:68 A:179 B A 
+OLE.pdb.stacks.txt:A:67 A:68 A P 
+OLE.pdb.stacks.txt:A:67 A:180 B A 
+OLE.pdb.stacks.txt:A:72 A:73 A P 
+OLE.pdb.stacks.txt:A:73 A:74 A P 
+OLE.pdb.stacks.txt:A:74 A:75 A P 
+# OLE.pdb.stacks.txt:A:123 A:124 B A 
+
+OLE.pdb.base_pairs.txt:B:74 B:123 W W C 
+OLE.pdb.stacks.txt:B:122 B:123 A P 
+OLE.pdb.stacks.txt:B:123 B:176 A P 
+OLE.pdb.base_pairs.txt:B:73 B:176 H S T 
+OLE.pdb.stacks.txt:B:176 B:177 A P 
+OLE.pdb.base_pairs.txt:B:72 B:177 H S T 
+OLE.pdb.motifs.txt:TANDEM_GA_SHEARED B:71-72 B:177-178
+OLE.pdb.stacks.txt:B:71 B:177 A A 
+OLE.pdb.base_pairs.txt:B:71 B:178 S H T 
+OLE.pdb.other_contacts.txt:B:68 B:178  O2'  N1 
+OLE.pdb.stacks.txt:B:69 B:178 B P 
+OLE.pdb.stacks.txt:B:72 B:178 B A 
+OLE.pdb.base_pairs.txt:B:67 B:179 W W C 
+OLE.pdb.base_pairs.txt:B:179 B:226 H W T 
+OLE.pdb.other_contacts.txt:B:72 B:179  N3   O2'
+OLE.pdb.stacks.txt:B:68 B:179 B A 
+OLE.pdb.stacks.txt:B:179 B:180 A P 
+OLE.pdb.stacks.txt:B:67 B:68 A P 
+OLE.pdb.stacks.txt:B:67 B:180 B A 
+OLE.pdb.stacks.txt:B:72 B:73 A P 
+OLE.pdb.stacks.txt:B:73 B:74 A P 
+OLE.pdb.stacks.txt:B:74 B:75 A P
+#OLE.pdb.other_contacts.txt:B:67 B:227  OP2  O4 

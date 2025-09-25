@@ -1,0 +1,56 @@
+OLE.pdb.base_pairs.txt:A:97 B:150 W W C 
+OLE.pdb.base_pairs.txt:A:98 B:149 W W C 
+OLE.pdb.base_pairs.txt:A:148 B:100 W W C 
+OLE.pdb.base_pairs.txt:A:149 B:98 W W C 
+OLE.pdb.base_pairs.txt:A:150 B:97 W W C 
+OLE.pdb.base_pairs.txt:A:100 B:148 W W C 
+
+
+OLE.pdb.stacks.txt:A:97 B:151 B A 
+OLE.pdb.stacks.txt:A:151 B:97 B A 
+OLE.pdb.stacks.txt:A:101 B:148 B A 
+OLE.pdb.stacks.txt:A:148 B:101 B A
+OLE.pdb.stacks.txt:A:147 B:202 B A 
+OLE.pdb.stacks.txt:A:202 B:147 B A 
+
+
+
+OLE.pdb.base_pairs.txt:A:99 A:101 S H C 
+OLE.pdb.stacks.txt:A:150 A:151 A P 
+OLE.pdb.motifs.txt:PLATFORM A:99 A:101-102 A:95
+OLE.pdb.stacks.txt:A:95 A:99 A A 
+OLE.pdb.stacks.txt:A:97 A:98 A P 
+OLE.pdb.stacks.txt:A:98 A:99 A P 
+OLE.pdb.motifs.txt:PLATFORM A:99 A:101-102 A:95
+OLE.pdb.base_pairs.txt:A:99 A:101 S H C 
+OLE.pdb.other_contacts.txt:A:100 A:149  O2'  N2 
+OLE.pdb.stacks.txt:A:100 A:101 A P 
+OLE.pdb.stacks.txt:A:101 A:102 A P 
+OLE.pdb.stacks.txt:A:102 A:103 A P 
+OLE.pdb.base_pairs.txt:A:102 A:202 S W T 
+OLE.pdb.base_pairs.txt:A:95 A:102 W W C 
+OLE.pdb.motifs.txt:U_TURN A:201-203
+OLE.pdb.motifs.txt:GNRA_TETRALOOP A:201-204
+OLE.pdb.stacks.txt:A:202 A:203 A P 
+OLE.pdb.stacks.txt:A:148 A:149 A P 
+OLE.pdb.stacks.txt:A:149 A:150 A P 
+
+OLE.pdb.base_pairs.txt:B:99 B:101 S H C 
+OLE.pdb.stacks.txt:B:150 B:151 A P 
+OLE.pdb.motifs.txt:PLATFORM B:99 B:101-102 B:95
+OLE.pdb.stacks.txt:B:95 B:99 A A 
+OLE.pdb.stacks.txt:B:97 B:98 A P
+OLE.pdb.stacks.txt:B:98 B:99 A P 
+OLE.pdb.motifs.txt:PLATFORM B:99 B:101-102 B:95
+OLE.pdb.base_pairs.txt:B:99 B:101 S H C 
+OLE.pdb.other_contacts.txt:B:100 B:149  O2'  N2 
+OLE.pdb.stacks.txt:B:100 B:101 A P 
+OLE.pdb.stacks.txt:B:101 B:102 A P 
+OLE.pdb.stacks.txt:B:102 B:103 A P 
+OLE.pdb.base_pairs.txt:B:102 B:202 S W T 
+OLE.pdb.base_pairs.txt:B:95 B:102 W W C 
+OLE.pdb.motifs.txt:U_TURN B:201-203
+OLE.pdb.motifs.txt:GNRA_TETRALOOP B:201-204
+OLE.pdb.stacks.txt:B:202 B:203 A P 
+OLE.pdb.stacks.txt:B:148 B:149 A P 
+OLE.pdb.stacks.txt:B:149 B:150 A P 

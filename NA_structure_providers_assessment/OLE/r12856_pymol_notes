@@ -1,0 +1,127 @@
+pymol OLE.pdb R1285o/R1285TS028_4o.pdb R1285o/R1285TS262_2o.pdb R1285o/R1285TS262_5o.pdb R1285o/R1285TS481_1o.pdb R1285o/R1285TS189_4o.pdb R1285o/R1285TS262_4o.pdb R1285o/R1285TS262_1o.pdb R1285o/R1285TS286_4o.pdb R1285o/R1285TS481_3o.pdbR1285o/R1285TS110_3o.pdb R1285o/R1285TS189_2o.pdb R1285o/R1285TS091_?o.pdb
+rr()
+align_all()
+save /home/rachael/Desktop/CASP/exp_paper/ole/R1285.pse
+
+# complex
+R1285TS028_4o
+
+# interface
+R1285TS189_4o
+
+# rpsu
+maybe 262_1o or 4o
+or 481_3 481_1 110_3
+
+# kink
+189_2o or 091 any
+
+# B1
+none
+
+# B2
+286_4o
+
+
+# unresolved
+color grey, resi 1-28 or resi 372-600 
+color black, resi 29-371
+
+# P9.3 light red
+color 0xfad2db, resi 291-342 
+# B3 red
+color 0xe90a3a, resi 315-318
+color 0x8b0622, resi 315-318 and (chain B or chain 1)
+
+# P4 light blue
+color 0xd5f3fd, resi 35-56 
+# P9 gold
+color 0xf2ddab, resi 269-290 or resi 343-365
+# B1
+color 0x2DC3F5, resi 45-48 or resi 35
+color 0x1b7593, (resi 45-48 or resi 35) and (chain B or chain 1)
+#color 0xdfab2d, resi 361
+#color 0x9c771f, resi 361 and (chain B or chain 1)
+
+
+# P6 violet
+color 0xe2cffc, resi 124-175
+# P7 magenta
+color 0xfde6fe, resi 180-232 
+# P5 fforesst
+color 0xbecac0, resi 74-123
+# B2
+color 0x6e11f3, resi 147-150
+color 0x4d0baa, resi 147-150 and (chain B or chain 1)
+color 0xf106f5, resi 202
+color 0xa804ab, resi 202 and (chain B or chain 1)
+color 0x3c6142, resi 97-101
+color 0x1f4024, (resi 97-101) and (chain B or chain 1)
+#rpsu
+color 0x4ca6a6, resi 156-160 or resi 140-141
+
+
+# P8 mint
+color 0xd6f5d6, resi 233-259
+# P3 grey
+color 0xcdced2, resi 29-34 or resi 366-371 
+# P4a orange
+color 0xf3e2cc, resi 57-70 or resi 260-268
+
+#kink
+#P5 and P7
+color 0x32CD32, resi 67-74 or resi 123
+color 0xc628ff, resi 176-179
+
+# TODO REDO with 99 incluide for all!!!! B2 and psu recolor
+select highlights, resi 315-318 or resi 71-74 or resi 123 or resi 176-179 or resi 156-160 or resi 140-141 or resi 147-150 or resi 202 or resi 97-101 or resi 45-48 or resi 35 or or resi 67-70
+pymol.cmd.set("ribbon_width", 20) 
+# edited to pymol.cmd.set("ribbon_width", 6)  for image retakes
+
+select unresolved, resi 1-28 or resi 372-600 
+
+select B2, ((resi 147-150 ) and (chain A or chain 0)) or ((resi 97-101 or resi 202) and (chain B or chain 1))
+
+color 0x6e11f3, 
+color 0x4d0baa, resi 147-150 and (chain B or chain 1)
+color 0xf106f5, resi 202
+color 0xa804ab, resi 202 and (chain B or chain 1)
+color 0x3c6142, resi 97-98 or resi 100-101
+color 0x1f4024, (resi 97-98 or resi 100-101) and (chain B or chain 1)
+
+
+select B1, resi 45-48 or resi 35
+select rpsu, (resi 156-160 or resi 140-141) and (chain A or chain 0)
+select kink, (resi 67-74 or resi 123 or resi 176-179) and (chain A or chain 0)
+
+create ole_rpsu, OLE and rpsu
+# color gray60
+set stick_transparency, 0.5, ole_rpsu
+create ole_262_1, R1285TS262_1o and rpsu
+align ole_262_1, ole_rpsu
+
+create ole_kink, OLE and kink
+set stick_transparency, 0.5, ole_kink
+create kink_189_2, R1285TS189_2o and kink
+align kink_189_2, ole_kink
+
+create b2_ole, OLE and B2
+create b2_286_4o, R1285TS286_4o and B2
+set stick_transparency, 0.5, b2_ole
+align b2_286_4o, b2_ole
+
+
+
+
+scene front, store
+scene b1, store
+# b1 no predictions
+scene b2, store
+scene kink, store
+scene rpsu, store
+# not important atomically b3
+
+#global
+R1285TS028_4o
+# interface
+R1285TS189_4o

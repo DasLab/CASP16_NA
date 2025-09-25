@@ -1,0 +1,38 @@
+OLE.pdb.base_pairs.txt:A:45 B:48 W S C 
+OLE.pdb.base_pairs.txt:A:48 B:45 S W C 
+OLE.pdb.base_pairs.txt:A:47 B:47 W W C 
+
+
+OLE.pdb.stacks.txt:A:35 B:45 A P 
+OLE.pdb.stacks.txt:A:45 B:35 B P 
+
+OLE.pdb.base_pairs.txt:A:41 A:50 W W C 
+OLE.pdb.stacks.txt:A:40 A:41 A P 
+OLE.pdb.stacks.txt:A:35 A:361 B P 
+OLE.pdb.stacks.txt:A:359 A:361 B A 
+OLE.pdb.motifs.txt:U_TURN A:44-46
+OLE.pdb.stacks.txt:A:45 A:46 A P 
+OLE.pdb.other_contacts.txt:A:44 A:46  O2'  N7 
+OLE.pdb.stacks.txt:A:46 A:47 A P 
+OLE.pdb.base_pairs.txt:A:44 A:47 S H T 
+OLE.pdb.stacks.txt:A:47 A:48 A P 
+OLE.pdb.base_pairs.txt:A:43 A:48 W H T 
+OLE.pdb.stacks.txt:A:48 A:49 A P 
+OLE.pdb.stacks.txt:A:49 A:50 A P 
+OLE.pdb.stacks.txt:A:50 A:51 A P 
+#OLE.pdb.stacks.txt:A:41 A:42 A A 
+
+OLE.pdb.base_pairs.txt:B:41 B:50 W W C 
+OLE.pdb.stacks.txt:B:40 B:41 A P 
+OLE.pdb.stacks.txt:B:35 B:361 B P 
+OLE.pdb.stacks.txt:B:359 B:361 B A 
+OLE.pdb.motifs.txt:U_TURN B:44-46
+OLE.pdb.stacks.txt:B:45 B:46 A P 
+OLE.pdb.other_contacts.txt:B:44 B:46  O2'  N7 
+OLE.pdb.stacks.txt:B:46 B:47 A P 
+OLE.pdb.other_contacts.txt:B:44 B:47  N3   OP2
+OLE.pdb.stacks.txt:B:47 B:48 A P 
+OLE.pdb.base_pairs.txt:B:43 B:48 W H T 
+OLE.pdb.stacks.txt:B:48 B:49 A P 
+OLE.pdb.stacks.txt:B:49 B:50 A P 
+OLE.pdb.stacks.txt:B:50 B:51 A P 

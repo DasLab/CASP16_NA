@@ -1,0 +1,4 @@
+OLE.pdb.base_pairs.txt:A:315 B:318 W W C
+OLE.pdb.base_pairs.txt:A:316 B:317 W W C
+OLE.pdb.base_pairs.txt:A:317 B:316 W W C
+OLE.pdb.base_pairs.txt:A:318 B:315 W W C
