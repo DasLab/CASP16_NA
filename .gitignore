@@ -5,6 +5,7 @@
 R1260_assessment/figures
 NA_CASP_assessment/NA_assessment_figures
 NA_CASP_assessment/analysis/figure_subpanels
+NA_CASP_assessment/raw_scores/stochiometry_and_symmetry/*.svg
 # files too large
 R1260_assessment/analysis/rmsd_results/*csv
 # out of dat files

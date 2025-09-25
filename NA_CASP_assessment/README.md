@@ -7,9 +7,13 @@
 
 CASP caculated scores, based on OST, can be found in (raw_scores/ligand)[raw_scores/ligand]. Figure code can be found at (analysis/NA_ligand.ipynb)[analysis/NA_ligand.ipynb]. Pymol sessions can be found in (visuals/D1273_ligand.pse)[visuals/D1273_ligand.pse], (visuals/R1288_ligand.pse)[visuals/R1288_ligand.pse], and (visuals/R1261_ligand_images.pse)[visuals/R1261_ligand_images.pse]. Overview of scores can be found in (analysis/summary_tables/ligand.csv)[analysis/summary_tables/ligand.csv] with final Z sum scores in (analysis/summary_tables/final_Z_NA_ligand.csv)[analysis/summary_tables/final_Z_NA_ligand.csv].
 
+## RNA multimer
+
+Calculation of stiochemtry and symmetry can be found at [raw_scores/stochiometry_and_symmetry](raw_scores/stochiometry_and_symmetry). CASP caculated scores can be found in (raw_scores/RNA_multimer_results_table.csv)[raw_scores/RNA_multimer_results_table.csv]. Figure code can be found at (analysis/NA_multimer.ipynb)[analysis/NA_multimer.ipynb]. Pymol sessions can be found in (visuals/R1251.cxc)[visuals/R1251.cxc]. Final Z sum scores in (analysis/summary_tables/final_Z_NA_multimer.csv)[analysis/summary_tables/final_Z_NA_multimer.csv].
+
 ## Hybrid
 
-CASP caculated scores can be found in (raw_scores/RNA_hybrid_results_table.csv)[raw_scores/RNA_hybrid_results_table.csv]. Figure code can be found at (analysis/NA_hybrid.ipynb)[analysis/NA_hybrid.ipynb]. The code to seperate these scores by interaction time (eg protein-protein v RNA-protein) is in (raw_scores/RNP)[raw_scores/RNP]. A summary of scores can be found at (analysis/summary_tables/hybrid_scores.csv)[analysis/summary_tables/hybrid_scores.csv] with final Z sum scores in (analysis/summary_tables/final_Z_NA_hybrid.csv)[analysis/summary_tables/final_Z_NA_hybrid.csv]. ChimeraX sessions to visualize prediction of M1221, M1224, M1276, M1212 can be found in [visuals](visuals).
+Calculation of stiochemtry can be found at [raw_scores/stochiometry_and_symmetry](raw_scores/stochiometry_and_symmetry).CASP caculated scores can be found in (raw_scores/RNA_hybrid_results_table.csv)[raw_scores/RNA_hybrid_results_table.csv]. Figure code can be found at (analysis/NA_hybrid.ipynb)[analysis/NA_hybrid.ipynb]. The code to seperate these scores by interaction time (eg protein-protein v RNA-protein) is in (raw_scores/RNP)[raw_scores/RNP]. A summary of scores can be found at (analysis/summary_tables/hybrid_scores.csv)[analysis/summary_tables/hybrid_scores.csv] with final Z sum scores in (analysis/summary_tables/final_Z_NA_hybrid.csv)[analysis/summary_tables/final_Z_NA_hybrid.csv]. ChimeraX sessions to visualize prediction of M1221, M1224, M1276, M1212 can be found in [visuals](visuals).
 
 ## Motif analysis
 
