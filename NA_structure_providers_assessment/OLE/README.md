@@ -14,20 +14,14 @@ for f in R1285TS???_?o.pdb; do echo $f; rna_motif -s ${f} > ${f}.rna_motif.out; 
 ```
 Three PDBs errored: 
 ```
-R1285TS167_1o.pdb
-R1285TS208_2o.pdb
-R1285TS450_1o.pdb
+R1285TS167_1o
+R1285TS208_2o
+R1285TS450_1o
 ```
-
 
 (process_data.py)[process_data.py] compares the native interactions in (native)[native] to predicted motifs in (R1285o)[R1285o] to produce the summary (interaction_results.csv)[interaction_results.csv].
 
 (all_intermolecular_interaction.py)[all_intermolecular_interaction.py] reads all predicted motifs in (R1285o)[R1285o] and outputs a summary, (all_intermolecular_interactions.csv)[all_intermolecular_interactions.csv].
 
 
-process_data.py
-all_intermolecular_interaction.py
-interaction_results.csv
-all_intermolecular_interactions.csv
-R1285o
-native
+Visuals are found in (images)[images] and the pymol session, (R1285.pse)[R1285_pymol.zip].

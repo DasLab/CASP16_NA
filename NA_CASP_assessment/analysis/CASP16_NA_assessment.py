@@ -1111,6 +1111,7 @@ def overview_performance_clustermap(plot_df,x_axis,y_axis,value,mid_value,
     plt.title(score_name, loc='left', fontsize=12)
     plt.savefig(f"{save}.png",dpi=400, bbox_inches='tight', transparent=True)
     plt.savefig(f"{save}.svg",dpi=400, bbox_inches='tight', transparent=True)
+    return leaf_order, linkage_matrix, pivot_df.iloc[leaf_order]
 
 def plot_ss_accuracy(preds_top1,score):
 

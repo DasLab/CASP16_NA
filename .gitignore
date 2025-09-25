@@ -4,6 +4,7 @@
 # files for manuscript only
 R1260_assessment/figures
 NA_CASP_assessment/NA_assessment_figures
+NA_CASP_assessment/analysis/figure_subpanels
 # files too large
 R1260_assessment/analysis/rmsd_results/*csv
 # out of dat files
@@ -13,6 +14,7 @@ NA_structure_providers_assessment/OLE/R1285o
 NA_structure_providers_assessment/OLE/R1285.pse
 NA_structure_providers_assessment/ZTP_riboswitch/R1263
 NA_structure_providers_assessment/ZTP_riboswitch/R1264
+NA_CASP_assessment/raw_scores/RNP/ost
 
 NA_structure_providers_assessment/OLE/R1285_Fig.svg
 NA_structure_providers_assessment/OLE/ole_metrics.svg
