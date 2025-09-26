@@ -5,7 +5,7 @@
 
 ## Monomer
 
-CASP monomer analysis can be found at [analysis/NA_monomer.ipynb](analysis/NA_monomer.ipynb). CASP caculated scores can be found in [raw_scores/RNA_monomer_results_table.csv](raw_scores/RNA_monomer_results_table.csv) with summary scores found at [analysis/summary_tables/final_Z_monomer.csv](analysis/summary_tables/final_Z_monomer.csv). Chimerax sessions can be found in [visuals/cite.cxc](visuals/cite.cxc), [visuals/dna.cxc](visuals/dna.cxc), [visuals/ole.cxc](visuals/ole.cxc), [visuals/R1205.cxc](visuals/R1205.cxc), [visuals/R1288.cxc](visuals/R1288.cxc).
+CASP monomer analysis can be found at [analysis/NA_monomer.ipynb](analysis/NA_monomer.ipynb). CASP caculated scores can be found in [raw_scores/RNA_monomer_results_table.csv](raw_scores/RNA_monomer_results_table.csv) with summary scores found at [analysis/summary_tables/final_Z_NA_monomer.csv](analysis/summary_tables/final_Z_NA_monomer.csv). Chimerax sessions can be found in [visuals/cite.cxs](visuals/cite.cxs), [visuals/dna.cxs](visuals/dna.cxs), [visuals/ole.cxs](visuals/ole.cxs), [visuals/R1205.cxs](visuals/R1205.cxs), [visuals/R1288.cxs](visuals/R1288.cxs).
 
 
 ## Ligand
@@ -14,7 +14,7 @@ CASP caculated scores, based on OST, can be found in [raw_scores/ligand](raw_sco
 
 ## RNA multimer
 
-Calculation of stiochemtry and symmetry can be found at [raw_scores/stochiometry_and_symmetry](raw_scores/stochiometry_and_symmetry). CASP caculated scores can be found in [raw_scores/RNA_multimer_results_table.csv](raw_scores/RNA_multimer_results_table.csv). Figure code can be found at [analysis/NA_multimer.ipynb](analysis/NA_multimer.ipynb). Chimerax sessions can be found in [visuals/R1251.cxc](visuals/R1251.cxc). Final Z sum scores in [analysis/summary_tables/final_Z_NA_multimer.csv](analysis/summary_tables/final_Z_NA_multimer.csv).
+Calculation of stiochemtry and symmetry can be found at [raw_scores/stochiometry_and_symmetry](raw_scores/stochiometry_and_symmetry). CASP caculated scores can be found in [raw_scores/RNA_multimer_results_table.csv](raw_scores/RNA_multimer_results_table.csv). Figure code can be found at [analysis/NA_multimer.ipynb](analysis/NA_multimer.ipynb). Chimerax sessions can be found in [visuals/R1251.cxs](visuals/R1251.cxs). Final Z sum scores in [analysis/summary_tables/final_Z_NA_multimer.csv](analysis/summary_tables/final_Z_NA_multimer.csv).
 
 ## Hybrid
 
@@ -22,7 +22,7 @@ Calculation of stiochemtry can be found at [raw_scores/stochiometry_and_symmetry
 
 ## Base pairing
 
-Base pairing analysis can be found in [analysis/NA_secstruct.ipynb](analysis/NA_secstruct.ipynb). Theidentification of base pairs using can be found in [raw_scores/secondary_structure](raw_scores/secondary_structure). The results of the CASP16 predictors is found at [analysis/summary_tables/CASP16_3Dpreds_SS.parquet](analysis/summary_tables/CASP16_3Dpreds_SS.parquet), [analysis/summary_tables/CASP16_3Dpreds_SS_o.parquet](analysis/summary_tables/CASP16_3Dpreds_SS_o.parquet), and [analysis/summary_tables/CASP16_3Dpreds_SS_NC.parquet](analysis/summary_tables/CASP16_3Dpreds_SS_NC.parquet). The results of the secondary structure predictors is found at [analysis/summary_tables/CASP16_2Dpreds_SS.parquet](analysis/summary_tables/CASP16_2Dpreds_SS.parquet)
+Base pairing analysis can be found in [analysis/NA_secstruct.ipynb](analysis/NA_secstruct.ipynb). Theidentification of base pairs using can be found in [raw_scores/secondary_structure](raw_scores/secondary_structure). The results of the CASP16 predictors is found at [analysis/summary_tables/CASP16_3Dpreds_SS.parquet](analysis/summary_tables/CASP16_3Dpreds_SS.parquet), [analysis/summary_tables/CASP16_3Dpreds_Ss_o.parquet](analysis/summary_tables/CASP16_3Dpreds_Ss_o.parquet), and [analysis/summary_tables/CASP16_3Dpreds_SS_NC.parquet](analysis/summary_tables/CASP16_3Dpreds_SS_NC.parquet). The results of the secondary structure predictors is found at [analysis/summary_tables/CASP16_2Dpreds_SS.parquet](analysis/summary_tables/CASP16_2Dpreds_SS.parquet)
 
 ## Motif analysis
 
