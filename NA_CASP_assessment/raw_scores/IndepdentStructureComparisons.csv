@@ -1,0 +1,14 @@
+Molecule,PDB1,Authors1,Resolution1,PDB2,Authors2,Resolution2,Tm-align,Length,
+RaiA,9ELY,Kretsch,2.9,9CXF,Toor,3.02,0.94678,205,
+RaiA,9ELY,Kretsch,2.9,9G7C,Bujnicki,3.27,0.89187,205,
+RaiA,9CXF,Toor,3.02,9G7C,Bujnicki,3.27,0.87503,205,
+Tetrahymena ribozyme (Misfolded),7XSK,Chiu/Das,3.53,7UVT,Kieft,3.9,0.96291,388,
+"SL5, SARS-CoV-2",8UYS,Kretsch,4.7,8QO5,Bujnicki,6.5,0.62155,124,
+"SL5, MERS",8UYK,Kretsch,6.9,8QO4,Bujnicki,5.9,0.62155,135,
+"SL5, MERS",8UYL,Kretsch,6.4,8QO5,Bujnicki,5.9,0.69297,135,
+"SL5, MERS",8UYM,Kretsch,6.4,8QO6,Bujnicki,5.9,0.62504,135,
+Tetrahymena ribozyme (Native),7R6L,Piccirilli/Yin,2.85,7EZ0,Chiu/Das,3.14,0.94954,375,
+Lactobacillus UC118 ROOL,(unreleased),Kretsch,3.25,9J6Y,Su,3.25,0.96261,550,3300
+"FSE, SARS-CoV-2",6XRZ,Chiu/Das,6.9,7O7Z,Ban,5,0.31393,88,
+"FSE, SARS-CoV-2",7LYJ,Jones/Ferred'Amare,2.11,8VCI,Moss,6.1,0.43074,66,
+OLE RNA,9LCR,Su ,2.6,9MCW,Kretsch,2.9,0.82242,361,722
