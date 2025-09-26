@@ -24,5 +24,5 @@ python filter_cononical.py
 ```
 
 
-The secondary structure algorithm predictions were in dot bracket notation and can be found in [combined_secondary_structure_prediction_algorithmns_rck_edited](combined_secondary_structure_prediction_algorithmns_rck_edited).
+The secondary structure algorithm predictions were in dot bracket notation and can be found in [combined_secondary_structure_prediction_algorithmns_rck_edited.csv](combined_secondary_structure_prediction_algorithmns_rck_edited.csv).
 
