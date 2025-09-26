@@ -1,0 +1,42 @@
+Target,Molecule II
+R1203,RRE SL2
+R1205,xrRNA
+M1209,RRE SL2 w/ Fab
+M1211,Cloverleaf RNA w/ CVB3
+M1212,Fanzor2
+M1216,SPARSAgRNA–target ssDNA
+M1221,RNase P
+M1224,Type B RNase P
+M1228,LSI
+M1239,LSI-RDF
+R1241,Group II intron
+R1242,raiA
+R1248,GOLLD env46 3' domain
+R1250,GOLLD env46
+R1251,GOLLD env38
+R1252,ROOL Lactobacillus UCC118
+R1253,ROOL env209
+R1254,GOLLD env38 3' domain
+R1255,SL5 SARS-CoV-2
+R1256,SL5 Bt-CoV-HKU5
+R1261,ZTP riboswitch w/ ZMP
+R1262,ZTP riboswitch w/ AICA
+R1263,ZTP riboswitch w/ m-1-pyridinyl AICA
+R1264,ZTP riboswitch w/ AICA derivative
+M1268,XauSPARDA
+M1271,RECC
+D1273,RKEC1
+M1276,UDE
+R1281,RNA origami w/ 2'-F
+M1282,Spike-RBD aptamer w/ 2'-F
+R1283,ROOL Enterococcus
+R1285,OLE
+R1286,ROOL Lactobacillus ATCC11741
+M1287,UvrABC endonuclease
+R1288,SAMURI ribozyme
+R1289,Group I precursor tRNA
+R1290,Group II intron
+R1291,HYER1-withoutTRS
+M1293,CITE element
+M1296,RRE SL2 G34U w/ Fab
+M1297,Telomerase dimer
