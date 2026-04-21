@@ -2,6 +2,7 @@
 
 > Kretsch, R. C.; Hummer, A. M.; He, S.; Yuan, R.; Zhang, J.; Karagianes, T.; Cong, Q.; Kryshtafovych, A.; Das, R. Assessment of Nucleic Acid Structure Prediction in CASP16. bioRxiv, 2025, 2025.05.06.652459. https://doi.org/10.1101/2025.05.06.652459.
 
+> Kretsch, R. C.; Hummer, A. M.; He, S.; Yuan, R.; Zhang, J.; Karagianes, T.; Cong, Q.; Kryshtafovych, A.; Das, R. Assessment of Nucleic Acid Structure Prediction in CASP16. Proteins 2025, No. prot.70072. https://doi.org/10.1002/prot.70072.
 
 ## Monomer
 
